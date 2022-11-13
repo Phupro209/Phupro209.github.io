@@ -49,7 +49,7 @@ theTime.add({
 	update: function(percent) {
 		var thePercent = Math.round(percent.progress);
 		// Nội dung của nút bên dưới
-		document.querySelector('.container .sup').innerHTML= "Nhấn Vào Đây Đi " + (thePercent+899);
+		document.querySelector('.container .sup').innerHTML= "Là Ở Đây " + (thePercent+899);
 	}
 });
 theTime.add({
@@ -195,5 +195,5 @@ document.querySelector('.Description .modal-title').innerHTML = '<i class="far f
 document.querySelector('.Description .modal-body').innerHTML = 'Tui Iu Hương Lắm Ó <3 <i class="fas fa-heart"></i> ';
 var author = document.querySelector('.author .me');author.style.opacity = "0.5";
 
-author.innerHTML = "Mọi thắc mắc bạn có thể liên hệ<a href='https://www.facebook.com/PhungQuocDinh/'>Quốc Định<a>";
+author.innerHTML = "Mọi thắc mắc bạn có thể liên hệ<a href='https://www.facebook.com/Pphu2205/'>Ph Phu<a>";
 author.style.opacity = "0";
